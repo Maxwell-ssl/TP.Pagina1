@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Productos</title>
+		<style>
+			body {
+				font-family: 'Helvetica Neue', sans-serif;
+				font-weight: 300;
+				color: #444;
+				margin: 0;
+				padding: 0;
+			}
+			header {
+				width: 100%;
+				height: 100px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			h1 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 700;
+				color: #ffffff;
+				text-align: center;
+				padding: 20px;
+			}
+			nav {
+				background-color: #ecf0f1;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+				text-align: center;
+				padding: 10px;
+			}
+			nav a {
+				color: #2c3e50;
+				text-decoration: none;
+				margin-right: 20px;
+			}
+			nav a:hover {
+				color: #3498db;
+			}
+			label {
+				display:block;
+				margin-top:20px;
+				letter-spacing:1px;
+				color: white;
+			}
+			.principal {
+				display:block;
+			margin:0 auto;
+			width:510px;
+			color: #666666;
+			font-family:Arial;
+			}
+			form {
+				margin:0 auto;
+				width:400px;
+			}
+			input, textarea {
+				width:380px;
+				height:27px;
+				background:#e0dfdf;
+				border:2px solid #f6f6f6;
+				padding:10px;
+				margin-top:5px;
+				font-size:10px;
+				color:#000000;
+			}
+			textarea {
+				height:60px;
+				resize: none;
+			}
+			#submit {
+				width:85px;
+				height:35px;
+				border: none;
+				margin-top:20px;
+				cursor:pointer;
+				color: black;
+			}
+    	</style>
+	</head>
+	<body style="background-color: #7171aa;">
+		<header style="background-color: #37373f;">
+			<h1>CONTACTO</h1>
+		</header>
+		<nav>
+			<a href="Index.html">INICIO</a>
+			<a href="productos.html">PRODUCTOS</a>
+			<a href="contacto.html">CONTACTO</a>
+		</nav>
+		<section class="principal">
+			<form>
+				<label for="nombre">Usuario:</label>
+				<input id="nombre" name="Usuario" placeholder="Usuario">
+				<label for="email">Email:</label>
+				<input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+				<input id="submit" name="submit" type="submit" value="Enviar">
+			</form>
+		</section>
+	</body>
+</html>
